@@ -1,26 +1,26 @@
 {
   "name": "alexandria",
-  "description": "Alexandria's connectors for Aria Signs: Rhino, CorelDRAW and SquareCoil. Each starts the server Alexandria's installer put on the PC.",
+  "description": "Rhino, CorelDRAW and SquareCoil for Aria Signs.",
   "owner": {
     "name": "Alexandria, Aria Signs"
   },
   "plugins": [
     {
       "name": "rhino-mcp-platform",
-      "description": "Rhino 8 and Grasshopper, through McNeel's Rhino-MCP-Platform. Needs Alexandria's connectors installed on the PC.",
-      "version": "1.0.0",
+      "description": "Rhino 8 and Grasshopper, through McNeel's Rhino-MCP-Platform.",
+      "version": "1.0.1",
       "source": "./plugins/rhino-mcp-platform"
     },
     {
       "name": "coreldraw-live",
-      "description": "The document open in CorelDRAW. Needs CorelDRAW and Alexandria's connectors installed on the PC.",
-      "version": "1.0.0",
+      "description": "The document open in CorelDRAW.",
+      "version": "1.0.1",
       "source": "./plugins/coreldraw-live"
     },
     {
       "name": "squarecoil",
-      "description": "Aria's SquareCoil, read-only: design requests, projects with their notes, designs, tasks and files, and customers. Needs Alexandria's connectors installed on the PC, with your own SquareCoil login.",
-      "version": "2.0.0",
+      "description": "Aria's SquareCoil, read-only: design requests, projects with their notes, designs, tasks and files, and customers.",
+      "version": "2.0.1",
       "source": "./plugins/squarecoil"
     }
   ]
