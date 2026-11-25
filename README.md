@@ -10,7 +10,7 @@ Alexandria's connectors as plugins, for a client that takes plugins from a Git r
 
 ## Before a plugin works
 
-Run **Alexandria Setup** or **Install Connectors** on Rhino's Alexandria Tools tab once, or `Install Claude Connectors.cmd` from the shared Alexandria packages folder on a PC without Rhino. That installs the servers, and asks for your SquareCoil login. A plugin without them says so and stops.
+Run **Alexandria Setup** or **Install Connectors** on Rhino's Alexandria Tools tab once, or `Install AI Connectors.cmd` from the shared Alexandria packages folder on a PC without Rhino. That installs the servers, and asks for your SquareCoil login. A plugin without them says so and stops.
 
 ## Adding it to Claude or Grok
 
