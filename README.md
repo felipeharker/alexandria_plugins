@@ -14,10 +14,16 @@ Run **Alexandria Setup** or **Install Connectors** on Rhino's Alexandria Tools t
 
 ## Adding it to Grok
 
-Dashboard, Plugins, Marketplaces, Add marketplace, Import from a repository, with this repository's address. Its GitHub App needs access to this repository and to no other.
+Dashboard, Plugins, Marketplaces, Add marketplace, Import from a repository, with this repository's address:
+
+```
+https://github.com/felipeharker/alexandria_plugins
+```
+
+The repository is public, so nobody needs to be given access to it. It holds no code and no data.
 
 ## Don't edit here
 
-This repository is written by a workflow from Alexandria's private management repository, where the plugins are edited (`agent_connectors/plugins/`). A change made here is overwritten by the next one.
+This repository is written from Alexandria's private management repository, where the plugins are edited (`agent_connectors/plugins/`, by `agent_connectors/sync_plugins.py`). A change made here is overwritten by the next one.
 
 The lists of plugins are at the root under three names, because each client reads its own: `.grok-plugin/`, `.cursor-plugin/` and `.claude-plugin/`, each with a `marketplace.json`. Each plugin in `plugins/` has its command twice for the same reason, as `.mcp.json` and `mcp.json`.
