@@ -1,0 +1,6 @@
+{
+  "name": "coreldraw-live",
+  "description": "The document open in CorelDRAW. Needs CorelDRAW and Alexandria's connectors installed on the PC.",
+  "version": "1.0.0",
+  "author": { "name": "Alexandria, Aria Signs" }
+}

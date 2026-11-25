@@ -1,0 +1,6 @@
+{
+  "name": "squarecoil",
+  "description": "Aria's SquareCoil, read-only: design requests, projects with their notes, designs, tasks and files, and customers. Needs Alexandria's connectors installed on the PC, with your own SquareCoil login.",
+  "version": "2.0.0",
+  "author": { "name": "Alexandria, Aria Signs" }
+}
