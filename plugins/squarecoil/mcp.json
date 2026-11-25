@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "squarecoil": {
-      "command": "cmd",
-      "args": ["/c", "cd", "/d", "%USERPROFILE%", "&&", ".alexandria\\claude_connectors\\squarecoil\\squarecoil-mcp.cmd"]
-    }
-  }
-}

@@ -1,6 +1,0 @@
-{
-  "name": "rhino-mcp-platform",
-  "description": "Rhino 8 and Grasshopper, through McNeel's Rhino-MCP-Platform.",
-  "version": "1.0.1",
-  "author": { "name": "Alexandria, Aria Signs" }
-}

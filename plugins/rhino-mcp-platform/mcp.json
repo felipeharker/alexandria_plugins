@@ -1,9 +1,0 @@
-{
-  "mcpServers": {
-    "rhino-mcp-platform": {
-      "command": "cmd",
-      "args": ["/c", "cd", "/d", "%USERPROFILE%", "&&", ".alexandria\\claude_connectors\\rhino-mcp.cmd",
-               "--default-version", "8", "--startup-timeout", "120"]
-    }
-  }
-}
