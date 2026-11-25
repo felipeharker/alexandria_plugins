@@ -24,6 +24,6 @@ The repository is public, so nobody needs to be given access to it. It holds no 
 
 ## Don't edit here
 
-This repository is written from Alexandria's private management repository, where the plugins are edited (`agent_connectors/plugins/`, by `agent_connectors/sync_plugins.py`). A change made here is overwritten by the next one.
+This repository is written by a workflow from Alexandria's private management repository, where the plugins are edited (`agent_connectors/plugins/`), each time that repository's main branch changes. A change made here is overwritten by the next one.
 
 The lists of plugins are at the root under three names, because each client reads its own: `.grok-plugin/`, `.cursor-plugin/` and `.claude-plugin/`, each with a `marketplace.json`. Each plugin in `plugins/` has its command twice for the same reason, as `.mcp.json` and `mcp.json`.
