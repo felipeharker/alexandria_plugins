@@ -12,7 +12,11 @@ Alexandria's connectors as plugins, for a client that takes plugins from a Git r
 
 Run **Alexandria Setup** or **Install Connectors** on Rhino's Alexandria Tools tab once, or `Install Claude Connectors.cmd` from the shared Alexandria packages folder on a PC without Rhino. That installs the servers, and asks for your SquareCoil login. A plugin without them says so and stops.
 
-## Adding it to Grok
+## Adding it to Claude or Grok
+
+In Claude they are the organization's plugins: an owner adds them in the organization's plugin settings, and members get them in Claude Desktop and Claude Code.
+
+In Grok:
 
 Dashboard, Plugins, Marketplaces, Add marketplace, Import from a repository, with this repository's address:
 
